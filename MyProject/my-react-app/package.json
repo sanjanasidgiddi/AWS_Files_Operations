@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.550.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "amazon-cognito-identity-js": "^6.3.12",
+    "aws-sdk": "^2.1597.0",
+    "express": "^4.19.2",
     "flowbite": "^2.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -37,6 +41,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
